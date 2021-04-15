@@ -70,10 +70,11 @@ const computerChoice = () => {
     const h1 = document.querySelector('.computer-area .choice h1');
 
     const img = document.createElement('img');
-    img.src = `assets/images/${choices[choice-1]}.png`;
+    img.src = `assets/images/${choices[choice-1]}.svg`;
 
     computerArea.append(img);
     computerArea.removeChild(h1);
+    computerArea.classList.add('choice-no-border');
 
     return choices[choice-1];
 }
@@ -85,10 +86,11 @@ const startGame = (playerMove) => {
     const h1 = document.querySelector('.player-area .choice h1');
 
     const img = document.createElement('img');
-    img.src = `assets/images/${playerMove}.png`;
+    img.src = `assets/images/${playerMove}.svg`;
 
     playerArea.append(img);
     playerArea.removeChild(h1);
+    playerArea.classList.add('choice-no-border');
 
 
     // computer choice
