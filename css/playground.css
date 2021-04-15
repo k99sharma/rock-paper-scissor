@@ -17,22 +17,13 @@ nav{
     height: 10vh;
     display: flex;
     align-items: center;
-    padding-left: 25px;
-}
-
-.brand{
-    font-size: 20px;
-}
-
-.brand a{
-    color: aliceblue;
-    text-decoration: none;
+    margin: 20px;
 }
 
  /* footer */
  .footer{
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     text-align: center;
     position: relative;
     height: 5vh;
@@ -61,7 +52,7 @@ nav{
     text-align: center;
     background-color: black;
     padding: 20px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     box-shadow: 3px 2px 10px #1b1717;
 }
 
@@ -80,6 +71,8 @@ nav{
 .counter{
     margin-bottom: 15px;
     color: yellow;
+    display: flex;
+    align-items: center;
 }
 
 /* winner screen */
