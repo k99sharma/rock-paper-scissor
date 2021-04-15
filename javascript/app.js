@@ -11,6 +11,24 @@ const countdown = (count) => {
     }
 }
 
+// winner screen pop up
+const winnerScreen = (winner)=>{
+    const screen = document.querySelector('.winner-screen');
+    screen.classList.add('open');
+
+    // adding data to overlay
+    if(winner === 'Draw'){
+        screen.innerHTML = `<h1>I's a Draw !</h1>
+                        <a href="playground.html" id="play-again">Play Again</a>
+                        `;
+    }else{
+        screen.innerHTML = `<h1>${winner} wins!</h1>
+                        <a href="playground.html" id="play-again">Play Again</a>
+                        `;
+    }
+
+}
+
 
 // finding winner algorithm
 const findTheWinner = (computerMove, playerMove)=>{
@@ -78,7 +96,9 @@ const startGame = (playerMove) => {
     
     // finding the winner
     const winner = findTheWinner(computerMove, playerMove);
-    console.log(winner);
+
+    // calling winner screen
+    setTimeout(function(){winnerScreen(winner)}, 1000);
 }
 
 
