@@ -69,12 +69,16 @@ nav{
         box-shadow: 3px 2px 10px #1b1717;
     }
 
+    .right-grid{
+        padding: 20px;
+    }
+
 /* SETTING UP MOBILE RESPONSIVE VIEW */
 @media screen and (max-width: 370px){
     .context{
         text-align: left;
         margin-bottom: 25%;
-        justify-content: space-between;
+        
     }
 
     .main-heading h1{
@@ -106,6 +110,7 @@ nav{
         display: grid;
         grid-template-rows: 50% 50%;
         text-align: center;
+        grid-gap: 50px;
     }
 
     .left-grid{
