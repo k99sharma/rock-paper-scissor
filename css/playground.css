@@ -45,8 +45,8 @@ nav{
 
 .choice{
     margin: 20% auto;
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     border: 3px dashed #2b2e4a;
     display: flex;
@@ -54,6 +54,10 @@ nav{
     align-items: center;
     position: relative;
     color: yellow;
+}
+
+.choice-no-border{
+    border: none;
 }
 
 .player-selection{
