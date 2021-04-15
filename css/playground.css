@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #8ab6d6;
+    background-color: #903749;
     color: white;
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -30,10 +30,17 @@ nav{
     width: 100%;
 }
 
+.footer a{
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+}
+
 .main-content{
-    background-color: #132c33;
+    background-color: #e84545;
     padding: 1%;
     box-shadow: 3px 2px 10px #1b1717;
+    color: yellow;
 }
 
 .choice{
@@ -41,16 +48,18 @@ nav{
     height: 180px;
     width: 180px;
     border-radius: 50%;
-    border: 3px dashed #8ab6d6;
+    border: 3px dashed #2b2e4a;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    color: yellow;
 }
 
 .player-selection{
+    color: yellow;
     text-align: center;
-    background-color: black;
+    background-color: #2b2e4a;
     padding: 20px;
     margin-bottom: 5%;
     box-shadow: 3px 2px 10px #1b1717;
@@ -65,7 +74,12 @@ nav{
 .selection img{
     max-width: 40vw;
     max-height: 20vh;
-    transition: 0.5s all ease-in;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+.selection img:hover{
+    box-shadow: 3px 2px 10px #1b1717;
 }
 
 .counter{
@@ -73,6 +87,7 @@ nav{
     color: yellow;
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 
 /* winner screen */
@@ -85,12 +100,12 @@ nav{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(63,114,175, 0.9);
+    background-color: rgba(83,53,74, 0.9);
     z-index: 2;
 }
 
 .winner-screen.open{
-    color: white;
+    color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,9 +115,10 @@ nav{
 
 #play-again{
     color: white;
+    background-color: #e84545;
     font-weight: 400;
     text-decoration: none;
-    border: 1px solid green;
+    border: 1px solid #e84545;
     border-radius: 1.5rem;
     text-align: center;
     font-size: 16px;
@@ -113,7 +129,7 @@ nav{
 
 #play-again:hover{
     padding: 15px 50px;
-    background-color: green;
+    background-color: #e84545;
 }
 
 

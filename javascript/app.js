@@ -18,7 +18,7 @@ const winnerScreen = (winner)=>{
 
     // adding data to overlay
     if(winner === 'Draw'){
-        screen.innerHTML = `<h1>I's a Draw !</h1>
+        screen.innerHTML = `<h1>It's a Draw !</h1>
                         <a href="playground.html" id="play-again">Play Again</a>
                         `;
     }else{
