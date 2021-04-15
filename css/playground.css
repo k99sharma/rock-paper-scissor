@@ -41,7 +41,7 @@ nav{
 
 .main-content{
     background-color: #132c33;
-    padding: 5%;
+    padding: 1%;
     box-shadow: 3px 2px 10px #1b1717;
 }
 
@@ -92,7 +92,7 @@ nav{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(63,114,175, 0.5);
+    background-color: rgba(63,114,175, 0.9);
     z-index: 2;
 }
 
@@ -107,8 +107,9 @@ nav{
 
 #play-again{
     color: white;
+    font-weight: 400;
     text-decoration: none;
-    border: 1px solid #3f72af;
+    border: 1px solid green;
     border-radius: 1.5rem;
     text-align: center;
     font-size: 16px;
@@ -119,7 +120,7 @@ nav{
 
 #play-again:hover{
     padding: 15px 50px;
-    background-color: #3f72af;
+    background-color: green;
 }
 
 
@@ -138,6 +139,10 @@ nav{
         transition: 0.5s all ease-in;
     } 
     
+    .choice{
+        height: 150px;
+        width: 150px;
+    }
 }
 
 /* SETTING UP DESKTOP VIEW */
