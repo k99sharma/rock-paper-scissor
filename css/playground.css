@@ -87,6 +87,13 @@ nav{
         flex-direction: column;
         align-items: center;
     }
+
+    .selection img{
+        max-width: 30vw;
+        max-height: 10vh;
+        transition: 0.5s all ease-in;
+    }
+    
 }
 
 /* SETTING UP DESKTOP VIEW */
