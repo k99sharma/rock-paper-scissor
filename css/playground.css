@@ -54,11 +54,6 @@ nav{
     position: relative;
 }
 
-.selected-choice{
-    width: 20vw;
-    height: 20vh;
-}
-
 .player-selection{
     text-align: center;
     background-color: black;
@@ -93,6 +88,11 @@ nav{
         max-height: 10vh;
         transition: 0.5s all ease-in;
     }
+
+    .counter{
+        margin-bottom: 15px;
+        color: yellow;
+    }
     
 }
 
@@ -106,3 +106,11 @@ nav{
 }
 
 
+
+/* Game engine choices */
+
+.choice-rock{
+    background-image: url('assets/images/rock.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
