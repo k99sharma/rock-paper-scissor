@@ -14,4 +14,4 @@ A simple responsive rock, paper and scissors game built for desktop and mobile v
 <br />
 
 ## Visit the Project
-<a href="https://k99-rockpaperscissor.netlify.app/">Link to Project</a>
+<a target="_blank" href="https://k99-rockpaperscissor.netlify.app/">Link to Project</a>
