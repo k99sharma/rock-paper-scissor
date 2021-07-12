@@ -13,5 +13,3 @@ A simple responsive rock, paper and scissors game built for desktop and mobile v
 ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 <br />
 
-## Visit the Project
-<a target="_blank" href="https://k99-rockpaperscissor.netlify.app/">Link to Project</a>
