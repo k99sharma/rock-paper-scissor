@@ -100,7 +100,7 @@ const startGame = (playerMove) => {
     const winner = findTheWinner(computerMove, playerMove);
 
     // calling winner screen
-    setTimeout(function(){winnerScreen(winner)}, 500);
+    setTimeout(function(){winnerScreen(winner)}, 1000);
 }
 
 
